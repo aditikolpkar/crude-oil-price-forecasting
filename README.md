@@ -6,10 +6,6 @@ Time series forecasting of crude oil prices using ARIMA, LSTM, and ensemble mode
 This project uses time series forecasting techniques to predict crude oil prices using:
 - ARIMA
 - LSTM
-- Random Forest
-- XGBoost
-- Ensemble Model
-
 ## 📁 Project Structure
 
 ```
