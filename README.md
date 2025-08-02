@@ -1,34 +1,11 @@
-# crude-oil-price-forecasting
-Time series forecasting of crude oil prices using ARIMA, LSTM, and ensemble models.
+# Crude Oil Price Forecasting using LSTM & GRU with Exogenous Variables
 
-# Crude Oil Price Forecasting
+This project forecasts crude oil prices using deep learning models .
+This work applies Multivariate deep learning by combined WTI crude oil prices with key macroeconomic indicators ( Dollar Index, Consumer Price Index, Industrial Production, Fed Funds Rate) and a comparative analysis of LSTM vs GRU for forecasting
 
-This project uses time series forecasting techniques to predict crude oil prices using:
-- ARIMA
-- LSTM
-## 📁 Project Structure
+# Objectives
 
-```
-crude-oil-price-forecasting/
-├── crude_oil_price_forecasting_final.py
-├── requirements.txt
-├── README.md
-└── reports/
-    ├── File2.pdf
-    ├── 3.1ARIMA.pdf
-    └── 3.2LSTM.pdf
-```
-
-## 📦 Dependencies
-
-Install dependencies using:
-
-```bash
-pip install -r requirements.txt
-```
-
-## 📊 Forecasting Goals
-
-- Minimize MAE, MAPE, RMSE
-- Analyze trends in WTI crude oil prices (2010–2025)
-
+- Forecast short-term crude oil prices accurately.
+- Integrate external macroeconomic variables for better prediction.
+- Evaluate model performance with visualization and metrics.
+- Compare LSTM and GRU model effectiveness.
